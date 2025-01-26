@@ -2,6 +2,8 @@
 
 set -e
 
-chown www-data:www-data /var/log
+python manage.py makemigrations
+python manage.py migrate
+python manage.py collectstatic --noinput
 
-uwsgi --strict --ini /etc/app/uwsgi.ini
+uwsgi --strict --ini uwsgi.ini
