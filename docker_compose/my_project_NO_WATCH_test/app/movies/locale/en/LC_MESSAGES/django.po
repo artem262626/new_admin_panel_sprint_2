@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-12 23:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/apps.py:8
+msgid "movies"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:22
+msgid "name"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:23
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:42
+msgid "description"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:27
+msgid "Genre"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:28
+msgid "Genres"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:32
+msgid "Фильм"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:33
+msgid "Шоу"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:34
+msgid "Сериал"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:35
+msgid "Мультфильм"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:36
+msgid "type"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:41
+msgid "title"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:43
+msgid "Дата создания"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:44
+msgid "rating"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:51
+msgid "Film"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:52
+msgid "Films"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:71
+msgid "full_name"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:75
+msgid "Person"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:76
+msgid "Persons"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:82
+msgid "Director"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:83
+msgid "Actor"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:84
+msgid "Producer"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:85
+msgid "Writer"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:86
+msgid "Actress"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:87
+msgid "Cinematographer"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:88
+msgid "Editor"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:89
+msgid "Production Designer"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:90
+msgid "Costumer"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:91
+msgid "Sound Designer"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:92
+msgid "Gaffer"
+msgstr ""
+
+#: new_admin_panel_sprint_1-1/movies_admin/movies/models.py:96
+msgid "role"
+msgstr ""

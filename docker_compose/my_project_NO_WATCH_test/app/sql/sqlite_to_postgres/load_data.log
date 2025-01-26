@@ -1,0 +1,338 @@
+2025-01-07 20:05:44,255:INFO:Start reading from sqlite and write to postgres
+2025-01-07 20:06:54,616:INFO:Start reading from sqlite and write to postgres
+2025-01-07 20:06:54,662:ERROR:Error during writing to film_work 
+->	null value in column "creation_date" of relation "film_work" violates not-null constraint
+DETAIL:  Failing row contains (movie, 3d825f60-9fff-4dfe-b294-1a45fa1e115d, Star Wars: Episode IV - A New Hope, The Imperial Forces, under orders from cruel Darth Vader, hold P..., null, 8.6, 2021-06-16 20:14:09.221838+00, 2021-06-16 20:14:09.221855+00).
+
+2025-01-07 20:06:54,662:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:06:54,669:ERROR:Error during writing to genre 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:06:54,669:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:06:54,699:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:06:54,699:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:06:54,713:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:06:54,713:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:06:54,727:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:06:54,727:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:13:11,370:INFO:Start reading from sqlite and write to postgres
+2025-01-07 20:13:11,413:ERROR:Error during writing to film_work 
+->	null value in column "creation_date" of relation "film_work" violates not-null constraint
+DETAIL:  Failing row contains (movie, 3d825f60-9fff-4dfe-b294-1a45fa1e115d, Star Wars: Episode IV - A New Hope, The Imperial Forces, under orders from cruel Darth Vader, hold P..., null, 8.6, 2021-06-16 20:14:09.221838+00, 2021-06-16 20:14:09.221855+00).
+
+2025-01-07 20:13:11,413:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:13:11,421:ERROR:Error during writing to genre 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:13:11,421:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:13:11,452:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:13:11,452:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:13:11,466:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:13:11,466:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:13:11,480:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:13:11,480:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:14:14,157:INFO:Start reading from sqlite and write to postgres
+2025-01-07 20:14:14,223:ERROR:Error during writing to film_work 
+->	null value in column "creation_date" of relation "film_work" violates not-null constraint
+DETAIL:  Failing row contains (movie, 3d825f60-9fff-4dfe-b294-1a45fa1e115d, Star Wars: Episode IV - A New Hope, The Imperial Forces, under orders from cruel Darth Vader, hold P..., null, 8.6, 2021-06-16 20:14:09.221838+00, 2021-06-16 20:14:09.221855+00).
+
+2025-01-07 20:14:14,224:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:14:14,236:ERROR:Error during writing to genre 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:14:14,236:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:14:14,279:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:14:14,279:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:14:14,303:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:14:14,303:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:14:14,328:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:14:14,328:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:46:06,314:INFO:Start reading from sqlite and write to postgres
+2025-01-07 20:46:06,388:ERROR:Error during writing to film_work 
+->	null value in column "creation_date" of relation "film_work" violates not-null constraint
+DETAIL:  Failing row contains (movie, 3d825f60-9fff-4dfe-b294-1a45fa1e115d, Star Wars: Episode IV - A New Hope, The Imperial Forces, under orders from cruel Darth Vader, hold P..., null, 8.6, 2021-06-16 20:14:09.221838+00, 2021-06-16 20:14:09.221855+00).
+
+2025-01-07 20:46:06,389:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:46:06,397:ERROR:Error during writing to genre 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:46:06,397:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:46:06,438:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:46:06,438:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:46:06,452:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:46:06,453:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:46:06,467:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:46:06,468:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:57:16,362:INFO:Start reading from sqlite and write to postgres
+2025-01-07 20:57:16,408:ERROR:Error during writing to film_work 
+->	duplicate key value violates unique constraint "unique_film_work"
+DETAIL:  Key (title)=(Star Trek) already exists.
+
+2025-01-07 20:57:16,408:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:57:16,416:ERROR:Error during writing to genre 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:57:16,416:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:57:16,459:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:57:16,459:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:57:16,481:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:57:16,482:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 20:57:16,504:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:57:16,505:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 21:02:40,337:INFO:Start reading from sqlite and write to postgres
+2025-01-07 21:02:40,407:ERROR:Error during writing to film_work 
+->	duplicate key value violates unique constraint "unique_film_work"
+DETAIL:  Key (title)=(Star Trek) already exists.
+
+2025-01-07 21:02:40,407:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 21:02:40,419:ERROR:Error during writing to genre 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 21:02:40,419:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 21:02:40,461:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 21:02:40,461:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 21:02:40,484:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 21:02:40,484:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 21:02:40,507:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 21:02:40,507:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:27:29,846:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:27:30,130:ERROR:Error during writing to film_work 
+->	null value in column "rating" of relation "film_work" violates not-null constraint
+DETAIL:  Failing row contains (movie, e7e6d147-cc10-406c-a7a2-5e0be2231327, Shooting Star, How far would a mother go to protect her children?, null, null, 2021-06-16 20:14:09.264252+00, 2021-06-16 20:14:09.264268+00).
+
+2025-01-07 22:27:30,130:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:27:30,137:ERROR:Error during writing to genre 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 22:27:30,137:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:27:30,161:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 22:27:30,161:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:27:30,176:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 22:27:30,176:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:27:30,190:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 22:27:30,190:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:30:04,813:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:30:05,111:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:30:05,118:ERROR:Error during writing to genre 
+->	null value in column "description" of relation "genre" violates not-null constraint
+DETAIL:  Failing row contains (3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff, Action, null, 2021-06-16 20:14:09.309735+00, 2021-06-16 20:14:09.309765+00).
+
+2025-01-07 22:30:05,118:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:30:05,142:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 22:30:05,142:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:30:05,155:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 22:30:05,155:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:30:05,168:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 22:30:05,168:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:30:58,736:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:30:59,027:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:30:59,035:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:31:00,091:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:31:00,419:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:31:01,397:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:36:25,991:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:36:26,286:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:36:26,293:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:36:27,333:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:36:27,635:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:36:28,504:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:40,432:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:56:40,715:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:40,722:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:41,680:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:41,998:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:42,810:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:43,901:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:56:44,202:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:44,210:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:45,214:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:45,513:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:46,334:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:47,218:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:56:47,540:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:47,548:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:48,590:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:48,897:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:49,721:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:50,517:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:56:50,817:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:50,825:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:51,827:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:52,122:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:52,930:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:53,800:INFO:Start reading from sqlite and write to postgres
+2025-01-07 22:56:54,103:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:54,111:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:55,175:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:55,536:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-07 22:56:56,404:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:51:29,273:INFO:Start reading from sqlite and write to postgres
+2025-01-08 18:51:29,745:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:51:29,757:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:51:30,799:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:51:31,103:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:51:31,928:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:53:02,648:INFO:Start reading from sqlite and write to postgres
+2025-01-08 18:53:02,957:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:53:02,964:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:53:03,962:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:53:04,264:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-08 18:53:05,087:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:27:17,709:INFO:Start reading from sqlite and write to postgres
+2025-01-11 13:27:18,020:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:27:18,027:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:27:19,042:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:27:19,350:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:27:20,155:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:36:06,292:INFO:Start reading from sqlite and write to postgres
+2025-01-11 13:36:06,625:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:36:06,632:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:36:07,675:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:36:08,000:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:36:08,893:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:37:43,242:INFO:Start reading from sqlite and write to postgres
+2025-01-11 13:37:43,529:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:37:43,536:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:37:44,503:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:37:44,797:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 13:37:45,604:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 14:49:38,919:INFO:Start reading from sqlite and write to postgres
+2025-01-11 14:49:39,236:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 14:49:39,244:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 14:49:40,235:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 14:49:40,544:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 14:49:41,401:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 17:14:25,529:INFO:Start reading from sqlite and write to postgres
+2025-01-11 17:14:25,872:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 17:14:25,879:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 17:14:26,868:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 17:14:27,214:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-11 17:14:28,404:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:16:05,338:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:16:05,427:ERROR:Error during writing to film_work 
+->	relation "film_work" does not exist
+LINE 2:         INSERT INTO film_work(id,title,description,creation_...
+                            ^
+
+2025-01-25 10:16:05,428:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:16:05,428:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:16:05,465:ERROR:Error during writing to person 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-25 10:16:05,466:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:16:05,485:ERROR:Error during writing to genre_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-25 10:16:05,485:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:16:05,505:ERROR:Error during writing to person_film_work 
+->	current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-25 10:16:05,505:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:17:23,313:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:17:23,793:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:17:23,793:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:17:25,159:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:17:25,531:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:17:26,595:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:18:15,738:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:18:16,029:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:18:16,029:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:18:17,228:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:18:17,590:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:18:18,601:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:19:07,783:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:19:08,137:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:19:08,138:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:19:09,324:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:19:09,679:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:19:10,723:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:22:16,258:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:22:16,678:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:22:16,678:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:22:18,108:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:22:18,497:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:22:19,719:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:19,636:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:43:19,964:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:19,964:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:21,202:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:21,567:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:22,652:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:25,976:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:43:26,314:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:26,315:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:27,547:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:27,979:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:43:29,160:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:44:14,947:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:44:15,253:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:44:15,253:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:44:16,361:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:44:16,729:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:44:17,824:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:45:56,414:INFO:Start reading from sqlite and write to postgres
+2025-01-25 10:45:56,734:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:45:56,735:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:45:57,886:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:45:58,343:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 10:45:59,404:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:40,990:INFO:Start reading from sqlite and write to postgres
+2025-01-25 11:15:41,336:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:41,337:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:42,716:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:43,204:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:44,571:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:48,724:INFO:Start reading from sqlite and write to postgres
+2025-01-25 11:15:49,121:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:49,121:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:50,377:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:50,781:INFO:Successfully migrated data from SQLITE to POSTGRESQL
+2025-01-25 11:15:52,055:INFO:Successfully migrated data from SQLITE to POSTGRESQL
