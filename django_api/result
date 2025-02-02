@@ -5,12 +5,12 @@
 	"collection_id": "41730691-9ea3e135-1d68-4c95-a938-8aae2a9da103",
 	"folder_id": 0,
 	"environment_id": "0",
-	"totalPass": 10,
+	"totalPass": 6,
 	"delay": 0,
 	"persist": true,
 	"status": "finished",
 	"startedAt": "2025-02-02T12:29:58.987Z",
-	"totalFail": 0,
+	"totalFail": 4,
 	"results": [
 		{
 			"id": "948f4134-fbc7-43b9-b918-cf458e217331",
