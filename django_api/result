@@ -1,0 +1,207 @@
+{
+	"id": "5318de58-a976-415a-8ebd-15abbf97d063",
+	"name": "movies API (Production)",
+	"timestamp": "2025-02-02T12:30:00.484Z",
+	"collection_id": "41730691-9ea3e135-1d68-4c95-a938-8aae2a9da103",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-02T12:29:58.987Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "948f4134-fbc7-43b9-b918-cf458e217331",
+			"name": "movies",
+			"url": "https://makarskiy-yandex.ru/api/v1/movies",
+			"time": 58,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Запрос первой страницы": true,
+				"Проверка схемы": false
+			},
+			"testPassFailCounts": {
+				"Запрос первой страницы": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверка схемы": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				58
+			],
+			"allTests": [
+				{
+					"Запрос первой страницы": true,
+					"Проверка схемы": false
+				}
+			]
+		},
+		{
+			"id": "8b635ad6-aca4-4ef9-b52f-a46310299d93",
+			"name": "movies?page=2",
+			"url": "https://makarskiy-yandex.ru/api/v1/movies?page=2",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Запрос второй страницы": true,
+				"Проверка схемы": false
+			},
+			"testPassFailCounts": {
+				"Запрос второй страницы": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверка схемы": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Запрос второй страницы": true,
+					"Проверка схемы": false
+				}
+			]
+		},
+		{
+			"id": "791d5191-16d1-437b-b56e-7f5149122c47",
+			"name": "movies?page=last",
+			"url": "https://makarskiy-yandex.ru/api/v1/movies?page=last",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Запрос последней страницы": true,
+				"Проверка схемы": false
+			},
+			"testPassFailCounts": {
+				"Запрос последней страницы": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверка схемы": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"Запрос последней страницы": true,
+					"Проверка схемы": false
+				}
+			]
+		},
+		{
+			"id": "d11324ed-754f-4ac8-831f-9f1c2ab9b243",
+			"name": "movies/uuid/",
+			"url": "https://makarskiy-yandex.ru/api/v1/movies/00af52ec-9345-4d66-adbe-50eb917f463a",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Установка UUID": true,
+				"Запрос фильма по UUID": true,
+				"Проверка схемы": false
+			},
+			"testPassFailCounts": {
+				"Установка UUID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Запрос фильма по UUID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверка схемы": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				315
+			],
+			"allTests": [
+				{
+					"Установка UUID": true,
+					"Запрос фильма по UUID": true,
+					"Проверка схемы": false
+				}
+			]
+		},
+		{
+			"id": "5c4e8729-bdab-42ec-a41a-fed6c81a5468",
+			"name": "movies/wrongUuid/",
+			"url": "https://makarskiy-yandex.ru/api/v1/movies/0000",
+			"time": 9,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Запрос фильма по несуществующему UUID": true
+			},
+			"testPassFailCounts": {
+				"Запрос фильма по несуществующему UUID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Запрос фильма по несуществующему UUID": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 546,
+	"collection": {
+		"requests": [
+			{
+				"id": "948f4134-fbc7-43b9-b918-cf458e217331",
+				"method": "GET"
+			},
+			{
+				"id": "8b635ad6-aca4-4ef9-b52f-a46310299d93",
+				"method": "GET"
+			},
+			{
+				"id": "791d5191-16d1-437b-b56e-7f5149122c47",
+				"method": "GET"
+			},
+			{
+				"id": "d11324ed-754f-4ac8-831f-9f1c2ab9b243",
+				"method": "GET"
+			},
+			{
+				"id": "5c4e8729-bdab-42ec-a41a-fed6c81a5468",
+				"method": "GET"
+			}
+		]
+	}
+}
