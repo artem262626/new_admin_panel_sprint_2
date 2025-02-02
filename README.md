@@ -2,8 +2,9 @@
 
 Django запущена по адресу https://makarskiy-yandex.ru
 user: test123
-password: 
-KKfvzo.`iM3S?OX`Bhwn_W;%X`??G{1
+password:  KKfvzo.`iM3S?OX`Bhwn_W;%X`??G{1
+
+
 
 # Описание задания на 2 спринт
  
