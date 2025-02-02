@@ -6,12 +6,12 @@ from django.views.generic.detail import BaseDetailView
 from django.views.generic.list import BaseListView
 from .models import Filmwork, PersonFilmwork, Genre
 
-#class StaffRequiredMixin(UserPassesTestMixin):
-#    def test_func(self):
-#        return self.request.user.is_staff
+class StaffRequiredMixin(UserPassesTestMixin):
+    def test_func(self):
+        return self.request.user.is_staff
 
-#    def handle_no_permission(self):
-#        return JsonResponse({'error': 'Forbidden'}, status=403)
+    def handle_no_permission(self):
+        return JsonResponse({'error': 'Forbidden'}, status=403)
 
 class MoviesApiMixin(StaffRequiredMixin, LoginRequiredMixin):
     model = Filmwork
