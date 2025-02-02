@@ -1,0 +1,52 @@
+services:
+  postgres:
+    build:
+      dockerfile: Dockerfile-DB
+    container_name: postgres
+    ports: 
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - pgdata:/var/lib/postgresql/data
+    restart: always
+    user: root
+    env_file: .env
+    networks:
+      - my_network
+
+  web:
+    build:
+      context: ./app
+    command: uwsgi --ini /app/uwsgi/uwsgi.ini
+    volumes:
+      - static_volume:/code/staticfiles    
+    env_file: .env
+    depends_on:
+      - postgres
+    links:
+      - postgres:postgres
+    networks:
+      - my_network
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - static_volume:/static
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - /etc/letsencrypt/live/makarskiy-yandex.ru/fullchain.pem:/etc/ssl/certs/fullchain.pem
+      - /etc/letsencrypt/live/makarskiy-yandex.ru/privkey.pem:/etc/ssl/private/privkey.pem
+    ports:
+      - "8000:80"
+      - "443:443"
+    depends_on:
+      - web
+    networks:
+      - my_network
+
+volumes:
+  pgdata:
+  static_volume:
+
+networks:
+  my_network:
+    driver: bridge
