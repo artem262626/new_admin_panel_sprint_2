@@ -5,7 +5,14 @@ from django.views.generic.detail import BaseDetailView
 from django.views.generic.list import BaseListView
 from .models import Filmwork, PersonFilmwork, Genre
 
-class MoviesApiMixin:
+# class StaffRequiredMixin(UserPassesTestMixin):
+#     def test_func(self):
+#         return self.request.user.is_staff
+
+#     def handle_no_permission(self):
+#         return JsonResponse({'error': 'Forbidden'}, status=403)
+
+class MoviesApiMixin:  # (StaffRequiredMixin, LoginRequiredMixin)
     model = Filmwork
     http_method_names = ['get']
 
@@ -25,8 +32,8 @@ class MoviesApiMixin:
             'title',
             'description',
             'creation_date',
-            'rating', 
-             'type'
+            'rating',
+            'type'
         ).annotate(
             genres=ArrayAgg(
                 'genres__name',
@@ -48,6 +55,7 @@ class MoviesListApi(MoviesApiMixin, BaseListView):
             queryset,
             50
         )
+
         prev_page = None
         next_page = None
         if page.has_previous():

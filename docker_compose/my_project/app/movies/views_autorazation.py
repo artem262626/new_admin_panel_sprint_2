@@ -76,4 +76,3 @@ class MoviesDetailApi(MoviesApiMixin, BaseDetailView):
         queryset = self.get_queryset()
         context = queryset.get(id=self.kwargs['pk'])
         return context
-
